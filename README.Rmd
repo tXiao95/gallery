@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # gallery
 
 <!-- badges: start -->
+[![codecov](https://codecov.io/gh/tXiao95/gallery/branch/master/graph/badge.svg)](https://codecov.io/gh/tXiao95/gallery)
 <!-- badges: end -->
 
 The goal of gallery is to replicate the [MATLAB gallery of test matrices](https://www.mathworks.com/help/matlab/ref/gallery.html) in R.
