@@ -6,6 +6,8 @@
 <!-- badges: start -->
 
 [![codecov](https://codecov.io/gh/tXiao95/gallery/branch/master/graph/badge.svg)](https://codecov.io/gh/tXiao95/gallery)
+[![Build
+Status](https://travis-ci.org/tXiao95/gallery.svg?branch=master)](https://travis-ci.org/tXiao95/gallery)
 <!-- badges: end -->
 
 The goal of gallery is to replicate the [MATLAB gallery of test
@@ -46,7 +48,7 @@ ggplot(df, aes(Real, Imag)) +
   scale_y_continuous(limits=c(-3,3)) + 
   coord_fixed(ratio=1) + 
   theme_bw()
-#> Warning: Removed 9853 rows containing missing values (geom_point).
+#> Warning: Removed 10085 rows containing missing values (geom_point).
 ```
 
 <img src="man/figures/README-example-1.png" width="100%" />
