@@ -10,7 +10,7 @@
 #' @param n dimension of the square matrix
 #' @param k number of superdiagonals of ones
 #'
-#' @return n by n Toeplitz matrix with -1 on subdiagonal, 1 on diagonal, and k superdiagionals of 1s.
+#' @return \code{n}-by-\code{n} Toeplitz matrix with -1 on subdiagonal, 1 on diagonal, and \code{k} superdiagionals of 1s.
 #'
 #' @export
 grcar <- function(n, k=NULL){
@@ -22,5 +22,5 @@ grcar <- function(n, k=NULL){
   j <- col(A)
   A[i == j + 1] <- -1
 
-  return(A)
+  return(as.matrix(A))
 }

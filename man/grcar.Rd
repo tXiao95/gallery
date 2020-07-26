@@ -12,7 +12,7 @@ grcar(n, k = NULL)
 \item{k}{number of superdiagonals of ones}
 }
 \value{
-n by n Toeplitz matrix with -1 on subdiagonal, 1 on diagonal, and k superdiagionals of 1s.
+\code{n}-by-\code{n} Toeplitz matrix with -1 on subdiagonal, 1 on diagonal, and \code{k} superdiagionals of 1s.
 }
 \description{
 Eigenvalues are sensitive.
